@@ -1,0 +1,12 @@
+# include <stdio.h>
+# include <stdlib.h>
+int main()
+{
+    int principal, rate, time, simple_interest;
+
+    printf("Enter the principal, rate and time: \n");
+    scanf("%d%d%d", &principal, &rate, &time);
+    simple_interest = (principal * rate * time) / 100;
+    printf("The Simple interest is %d", simple_interest);
+    return 0;
+}
